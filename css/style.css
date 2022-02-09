@@ -1,0 +1,105 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ==========Подключаемый мною шрифт с макета================== */
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Book.woff2"), url("../fonts/CircularStd-Book.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Bold.woff2"), url("../fonts/CircularStd-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Black.woff2"), url("../fonts/CircularStd-Black.woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Medium.woff2"), url("../fonts/CircularStd-Medium.woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-BookItalic.woff2"), url("../fonts/CircularStd-BookItalic.woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+/* ===================стили=================== */
+.wrapper {
+	max-width: 1389px;
+	margin: 0px auto;
+}
+body {
+	font-family: "Circular Std";
+	font-size: 18px;
+	color: #5F5F5F;
+	height: 100%;
+}
+.content {
+	margin: 140px auto;
+	height: 100%;
+	width: 1025px;
+}
+.header {
+	text-align: center;
+	display: inline-block;
+	margin: 0px 0px 224px;
+}
+h1{
+	font-size: 65px;
+	color: #313131;
+	margin: 0px 0px 20px;
+}
+.header p {
+	font-size: 20px;
+	line-height: 25px;
+}
+h2 {
+	color: #313131;
+	opacity: 0.88;
+	font-weight: 700;
+	font-size: 34px;
+	margin: 0px 0px 20px;
+}
+h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+}
+.main {
+	height: 100%;
+}
+.block-text {
+	width: 508px;
+	height: 380px;
+}
+.block-text p {
+	line-height: 28px;
+	margin: 0px 0px 125px;	
+}
+.block-text-bottom p {
+	font-size: 18px;
+	line-height: 23px;
+	color: #B8B8B8;
+}
+.block-img {
+}
